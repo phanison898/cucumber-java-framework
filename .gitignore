@@ -1,0 +1,23 @@
+# Maven specific
+/target
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea_modules/
+.vscode/
+
+# Eclipse specific
+.classpath
+.project
+.settings/
+
+# test-results
+/test-output
+/z-reports
+
+# secrets
+.env
