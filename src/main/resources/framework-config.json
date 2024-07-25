@@ -1,0 +1,8 @@
+{
+	"time-outs": {
+		"page-load-wait": 60,
+		"implicit-wait": 5,
+		"explicit-wait": 20,
+		"script-load-wait": 60
+	}
+}
