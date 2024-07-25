@@ -14,6 +14,7 @@
 		<testng.version>7.10.2</testng.version>
 		<extent.version>5.1.2</extent.version>
 		<surefire.version>3.13.0</surefire.version>
+		<apache.io.version>2.16.1</apache.io.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -41,6 +42,12 @@
 			<artifactId>extentreports</artifactId>
 			<version>${extent.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>${apache.io.version}</version>
+		</dependency>
+
 	</dependencies>
 	<build>
 		<plugins>

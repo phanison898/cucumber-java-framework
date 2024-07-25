@@ -20,6 +20,10 @@ public class Config {
 		return jo;
 	}
 
+	public static String getBrowser() {
+		return getJO().get("browser").getAsString();
+	}
+
 	public static long getPageLoadTime() {
 		return getJO().get("time-outs").getAsJsonObject().get("page-load-wait").getAsLong();
 	}
